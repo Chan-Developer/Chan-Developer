@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Multimodal AI · Computer Vision · Agents & RAG · Full-stack AI Engineering
+  Multimodal AI &nbsp;&middot;&nbsp; Computer Vision &nbsp;&middot;&nbsp; Agents &amp; RAG &nbsp;&middot;&nbsp; Full-stack AI Engineering
 </p>
 
 <p align="center">
@@ -48,16 +48,9 @@ I care about the part after a model demo works: turning it into a system that is
   </tr>
 </table>
 
-```text
-visual input
-    |
-    +-- multimodal understanding
-    +-- component-level detection
-    +-- agent and specialist review
-    +-- deterministic guardrails
-    |
-    `--> traceable product output
-```
+<p align="center">
+  <img src="assets/system-pipeline.svg" alt="Evidence-first multimodal AI system pipeline" width="100%" />
+</p>
 
 ## Featured Systems
 
@@ -118,7 +111,7 @@ visual input
 - Building evaluation loops from real failure cases instead of optimizing only for demos.
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chan-Developer&theme=github_dark" alt="Chan-Developer GitHub contribution summary" width="100%" />
+  <img src="assets/current-focus.svg" alt="Current engineering focus: reliability, evidence, and productization" width="100%" />
 </p>
 
 ---
