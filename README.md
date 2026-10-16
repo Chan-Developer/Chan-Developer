@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Open_Source-14_Merged_PRs-E53935?style=for-the-badge&logo=github&logoColor=white" alt="14 merged pull requests to external open-source projects" />
   </a>
   <a href="https://github.com/Chan-Developer/ReAct_agent">
-    <img src="https://img.shields.io/github/stars/Chan-Developer/ReAct_agent?style=for-the-badge&logo=github&label=ReAct%20Agent" alt="ReAct Agent stars" />
+    <img src="https://img.shields.io/github/stars/Chan-Developer/ReAct_agent?style=for-the-badge&logo=github&label=Resume%20Copilot" alt="Resume Copilot stars" />
   </a>
   <a href="https://github.com/Chan-Developer?tab=repositories">
     <img src="https://img.shields.io/badge/Explore-Projects-171717?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects" />
@@ -47,6 +47,13 @@ I turn model capabilities into systems that can be tested, inspected, and shippe
 | [Railtracks](https://github.com/RailtownAI/railtracks) | Paragraph-level PDF breakdown strategy | [1 PR](https://github.com/RailtownAI/railtracks/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged) | ![Railtracks stars](https://img.shields.io/github/stars/RailtownAI/railtracks?style=flat-square&label=stars) |
 | [OpenVideoStudio](https://github.com/mne03005-png/OpenVideoStudio) | Cross-platform path handling and clearer Ollama connection diagnostics | [2 PRs](https://github.com/mne03005-png/OpenVideoStudio/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged) | ![OpenVideoStudio stars](https://img.shields.io/github/stars/mne03005-png/OpenVideoStudio?style=flat-square&label=stars) |
 
+### Selected Merged Changes
+
+- [Propagate child cancellation promptly](https://github.com/evalstate/fast-agent/pull/976) in an async agent runtime.
+- [Contain skill and plugin installs](https://github.com/evalstate/fast-agent/pull/939) to prevent writes outside their target directories.
+- [Handle metadata and IP edge cases](https://github.com/canonical/cloud-init/pull/7068) in the Vultr datasource.
+- [Add an MCP violation-explanation server](https://github.com/wemake-services/wemake-python-styleguide/pull/3772) for Python lint diagnostics.
+
 > I value small, reviewable changes backed by focused regression tests and clear maintainer communication.
 
 ## Featured Systems
@@ -59,9 +66,9 @@ I turn model capabilities into systems that can be tested, inspected, and shippe
       <p><code>Vue 3</code> <code>Flask</code> <code>VLM</code> <code>YOLO</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Chan-Developer/ReAct_agent">ReAct Agent</a></h3>
-      <p>A practical agent implementation exploring the ReAct loop: reasoning, tool use, observation, and iterative decisions.</p>
-      <p><code>Python</code> <code>Agents</code> <code>Tool Use</code></p>
+      <h3><a href="https://github.com/Chan-Developer/ReAct_agent">Resume Copilot</a></h3>
+      <p>A JD-aware job-search workspace for resume diagnosis and generation, opportunity scoring, application tracking, and interview preparation.</p>
+      <p><code>Python</code> <code>Agents</code> <code>Structured Output</code></p>
     </td>
   </tr>
   <tr>
