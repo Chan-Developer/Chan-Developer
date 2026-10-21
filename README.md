@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://github.com/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged+-user%3AChan-Developer">
-    <img src="https://img.shields.io/badge/Open_Source-14_Merged_PRs-E53935?style=for-the-badge&logo=github&logoColor=white" alt="14 merged pull requests to external open-source projects" />
+    <img src="https://img.shields.io/badge/Open_Source-15_Merged_PRs-E53935?style=for-the-badge&logo=github&logoColor=white" alt="15 merged pull requests to external open-source projects" />
   </a>
   <a href="https://github.com/Chan-Developer/ReAct_agent">
     <img src="https://img.shields.io/github/stars/Chan-Developer/ReAct_agent?style=for-the-badge&logo=github&label=Resume%20Copilot" alt="Resume Copilot stars" />
@@ -37,11 +37,11 @@ I turn model capabilities into systems that can be tested, inspected, and shippe
 
 ## Open-Source Contributions
 
-**14 pull requests merged across 5 external projects.** Selected work includes async cancellation, safer agent plugin installation, datasource edge cases, type safety, MCP tooling, and document processing.
+**15 pull requests merged across 5 external projects.** Selected work includes async cancellation, safer agent plugin installation, datasource edge cases, type safety, CI cleanup, MCP tooling, and document processing.
 
 | Project | Contribution | Merged | Project |
 |---|---|---:|---:|
-| [cloud-init](https://github.com/canonical/cloud-init) | Datasource reliability and type-safety improvements across CA certificates, Netlink, Bigstep, Vultr, RbxCloud, and DigitalOcean | [7 PRs](https://github.com/canonical/cloud-init/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged) | ![cloud-init stars](https://img.shields.io/github/stars/canonical/cloud-init?style=flat-square&label=stars) |
+| [cloud-init](https://github.com/canonical/cloud-init) | Datasource reliability, type-safety, and CI cleanup across CA certificates, Netlink, Bigstep, Vultr, RbxCloud, DigitalOcean, and the Ruff baseline | [8 PRs](https://github.com/canonical/cloud-init/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged) | ![cloud-init stars](https://img.shields.io/github/stars/canonical/cloud-init?style=flat-square&label=stars) |
 | [fast-agent](https://github.com/evalstate/fast-agent) | Prompt child cancellation, contained skill/plugin installs, and collision-free stream captures | [3 PRs](https://github.com/evalstate/fast-agent/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged) | ![fast-agent stars](https://img.shields.io/github/stars/evalstate/fast-agent?style=flat-square&label=stars) |
 | [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) | MCP server for explaining Python style violations | [1 PR](https://github.com/wemake-services/wemake-python-styleguide/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged) | ![wemake stars](https://img.shields.io/github/stars/wemake-services/wemake-python-styleguide?style=flat-square&label=stars) |
 | [Railtracks](https://github.com/RailtownAI/railtracks) | Paragraph-level PDF breakdown strategy | [1 PR](https://github.com/RailtownAI/railtracks/pulls?q=is%3Apr+author%3AChan-Developer+is%3Amerged) | ![Railtracks stars](https://img.shields.io/github/stars/RailtownAI/railtracks?style=flat-square&label=stars) |
@@ -51,6 +51,7 @@ I turn model capabilities into systems that can be tested, inspected, and shippe
 
 - [Propagate child cancellation promptly](https://github.com/evalstate/fast-agent/pull/976) in an async agent runtime.
 - [Contain skill and plugin installs](https://github.com/evalstate/fast-agent/pull/939) to prevent writes outside their target directories.
+- [Restore cloud-init's main-branch format checks](https://github.com/canonical/cloud-init/pull/7157) with a focused Ruff cleanup.
 - [Handle metadata and IP edge cases](https://github.com/canonical/cloud-init/pull/7068) in the Vultr datasource.
 - [Add an MCP violation-explanation server](https://github.com/wemake-services/wemake-python-styleguide/pull/3772) for Python lint diagnostics.
 
